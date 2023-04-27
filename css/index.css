@@ -1,22 +1,19 @@
 *{
  margin: 0;
  padding: 0;
-}
 
-.navbar {
-    background-color: rgba(2, 2, 2, 0.808);
-    font-size: 30px;
-    justify-content: right;
+}
+/* #logo{
+    font-style: oblique;
+} */
+
+.container_ul{
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 18px;
    
 }
-.navbar  ul li {
-    display: inline;
-    margin: 15px;
-}
-.navbar a{
-    text-decoration: none;
-    color: aliceblue;
-}
+
 
 
 .circulo {
@@ -39,11 +36,10 @@
 
 span{
     color: rgb(255, 153, 0);
+    
 }
 
-li{
-    color: aliceblue;
-}
+
 
 #adote{
     margin: 100px;
@@ -70,3 +66,34 @@ footer{
 
 
 
+
+
+@media (min-width: 992px) {
+    .patinha-cachorro {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  
+  .hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+  }
+  
+  .hamburger-menu:focus {
+    outline: none;
+  }
+  
+  .hamburger-menu span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background: white;
+  }
